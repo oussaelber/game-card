@@ -29,12 +29,13 @@ public:
             int         defense        = entry["defense"];
             bool        isTrap         = entry["isTrap"];
             std::string specialAbility = entry["specialAbility"];
+            std::string rarity = entry["rarity"];
 
             // Convert terrain string to enum
             TerrainType terrain = terrainFromString(terrainStr);
 
             // Create the card and add it to the list
-            cards.push_back(std::make_unique<AttackDefenseCard>(id, name, description, terrain, attack, defense, isTrap, specialAbility));
+            cards.push_back(std::make_unique<AttackDefenseCard>(id, name, description, terrain, attack, defense, isTrap, specialAbility,rarity));
         }
         return cards;
     }
