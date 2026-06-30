@@ -5,7 +5,7 @@
         "description":"The strongest ocean entity controlling water and wind together",
         "terrain":"Ocean",
         "attack":200,
-        "defense":500,
+        "hp":500,
         "isTrap": false,
         "rarity": "king",
         "specialAbility": "none"
@@ -18,9 +18,9 @@
         "description":"A coastal guardian that protects shores from deep-sea threats",
         "terrain":"Ocean",
         "attack":80,
-        "defense":110,
+        "hp":110,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -29,9 +29,9 @@
         "description":"A small cave-dwelling sea creature that hides inside rocks",
         "terrain":"Ocean",
         "attack":50,
-        "defense":80,
+        "hp":80,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -40,9 +40,9 @@
         "description":"A living sea rock that only moves when attacking",
         "terrain":"Ocean",
         "attack":70,
-        "defense":100,
+        "hp":100,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -51,9 +51,9 @@
         "description":"A fast deep-sea hunter that attacks in packs",
         "terrain":"Ocean",
         "attack":60,
-        "defense":90,
+        "hp":90,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -62,9 +62,9 @@
         "description":"A mythical spirit appearing during storms",
         "terrain":"Ocean",
         "attack":60,
-        "defense":90,
+        "hp":90,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -73,9 +73,9 @@
         "description":"A long sea creature living in strong ocean currents, using speed and ambush to hunt small fish",
         "terrain":"Ocean",
         "attack":70,
-        "defense":100,
+        "hp":100,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -84,9 +84,9 @@
         "description":"A creature that slightly reshapes the seabed",
         "terrain":"Ocean",
         "attack":70,
-        "defense":100,
+        "hp":100,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -95,9 +95,9 @@
         "description":"A small-to-medium sea creature living in coral reefs that protects its territory from predators. Non-mythical, just an evolved marine species",
         "terrain":"Ocean",
         "attack":80,
-        "defense":110,
+        "hp":110,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -106,9 +106,9 @@
         "description":"A fast surface fish that attacks with high-speed charges",
         "terrain":"Ocean",
         "attack":50,
-        "defense":80,
+        "hp":80,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
     {
@@ -117,9 +117,9 @@
         "description":"A small crab with a strong shell living among sea rocks",
         "terrain":"Ocean",
         "attack":50,
-        "defense":80,
+        "hp":80,
         "isTrap": false,
-        "rarity": "Common",
+        "rarity": "common",
         "specialAbility": "none"
     },
 
@@ -129,9 +129,9 @@
         "description":"An ancient sea elder maintaining ocean balance",
         "terrain":"Ocean",
         "attack":120,
-        "defense":150,
+        "hp":150,
         "isTrap": false,
-        "rarity": "Rare",
+        "rarity": "rare",
         "specialAbility": "none"
     },
     {
@@ -140,9 +140,9 @@
         "description":"A spirit born from lightning and waves",
         "terrain":"Ocean",
         "attack":100,
-        "defense":130,
+        "hp":130,
         "isTrap": false,
-        "rarity": "Rare",
+        "rarity": "rare",
         "specialAbility": "none"
     },
     {
@@ -151,9 +151,9 @@
         "description":"A dark entity that appears during drowning moments",
         "terrain":"Ocean",
         "attack":90,
-        "defense":120,
+        "hp":120,
         "isTrap": false,
-        "rarity": "Rare",
+        "rarity": "rare",
         "specialAbility": "none"
     },
     {
@@ -162,9 +162,9 @@
         "description":"A fighter who uses water as a weapon",
         "terrain":"Ocean",
         "attack":110,
-        "defense":140,
+        "hp":140,
         "isTrap": false,
-        "rarity": "Rare",
+        "rarity": "rare",
         "specialAbility": "none"
     },
     {
@@ -173,9 +173,9 @@
         "description":"A creature controlling tides",
         "terrain":"Ocean",
         "attack":90,
-        "defense":120,
+        "hp":120,
         "isTrap": false,
-        "rarity": "Rare",
+        "rarity": "rare",
         "specialAbility": "none"
     },
     {
@@ -184,9 +184,9 @@
         "description":"A stronger version controlling larger currents",
         "terrain":"Ocean",
         "attack":100,
-        "defense":130,
+        "hp":130,
         "isTrap": false,
-        "rarity": "Rare",
+        "rarity": "rare",
         "specialAbility": "none"
     },
 
@@ -196,9 +196,9 @@
         "description":"Ruler of the dark and dangerous depths",
         "terrain":"Ocean",
         "attack":160,
-        "defense":190,
+        "hp":190,
         "isTrap": false,
-        "rarity": "Legendary",
+        "rarity": "legendary",
         "specialAbility": "none"
     },
     {
@@ -207,9 +207,9 @@
         "description":"A legendary wolf-like sea predator",
         "terrain":"Ocean",
         "attack":150,
-        "defense":180,
+        "hp":180,
         "isTrap": false,
-        "rarity": "Legendary",
+        "rarity": "legendary",
         "specialAbility": "none"
     },
     {
@@ -218,9 +218,9 @@
         "description":"An ancient spirit tied to an endless ocean",
         "terrain":"Ocean",
         "attack":140,
-        "defense":170,
+        "hp":170,
         "isTrap": false,
-        "rarity": "Legendary",
+        "rarity": "legendary",
         "specialAbility": "none"
     },
     {
@@ -229,23 +229,45 @@
         "description":"A giant creature from the deep ocean",
         "terrain":"Ocean",
         "attack":130,
-        "defense":160,
+        "hp":160,
         "isTrap": false,
-        "rarity": "Legendary",
+        "rarity": "legendary",
         "specialAbility": "none"
     },
 
     
     {
-        "id": 21,
-        "name":"Ocean Beast",
-        "description":"A giant creature from the deep ocean",
+        "id": 22,
+        "name":"Agulid lbiḥar",
+        "description":"A mid-tier king controlling sea creatures",
         "terrain":"Ocean",
-        "attack":130,
-        "defense":160,
-        "isTrap": false,
-        "rarity": "Legendary",
-        "specialAbility": "none"
+        "attack":0,
+        "hp":0,
+        "isTrap": true,
+        "rarity": "legendary",
+        "specialAbility": "Agulid lbiḥar"
+    },
+    {
+        "id": 23,
+        "name":"Black Sea Mist Entity",
+        "description":"A mist-based entity that appears in sea fog and disrupts enemy vision before striking",
+        "terrain":"Ocean",
+        "attack":0,
+        "hp":0,
+        "isTrap": true,
+        "rarity": "rare",
+        "specialAbility": "Black Sea Mist Entity"
+    },
+    {
+        "id": 24,
+        "name":"Bubble Shell",
+        "description":"A small sea creature that creates a bubble layer around itself or an ally to reduce incoming damage.",
+        "terrain":"Ocean",
+        "attack":0,
+        "hp":0,
+        "isTrap": true,
+        "rarity": "common",
+        "specialAbility": "Bubble Shell"
     }
 
 ]

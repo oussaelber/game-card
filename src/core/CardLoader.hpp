@@ -26,7 +26,7 @@ public:
             std::string description    = entry["description"];
             std::string terrainStr     = entry["terrain"];
             int         attack         = entry["attack"];
-            int         defense        = entry["defense"];
+            int         hp        = entry["hp"];
             bool        isTrap         = entry["isTrap"];
             std::string specialAbility = entry["specialAbility"];
             std::string rarity = entry["rarity"];
@@ -35,7 +35,7 @@ public:
             TerrainType terrain = terrainFromString(terrainStr);
 
             // Create the card and add it to the list
-            cards.push_back(std::make_unique<AttackDefenseCard>(id, name, description, terrain, attack, defense, isTrap, specialAbility,rarity));
+            cards.push_back(std::make_unique<AttackDefenseCard>(id, name, description, terrain, attack, hp, isTrap, specialAbility,rarity));
         }
         return cards;
     }
